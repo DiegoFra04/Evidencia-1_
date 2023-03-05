@@ -15,7 +15,7 @@ while True:
     genero=input(f"Ingrese el tipo de género que tiene el ejemplar:\n> ").upper()
 
     año_publicacion=input(f"Ingrese el año de publicación del ejemplar:\n> ")
-    año=datetime.datetime.strptime(año_publicacion, '%Y').date()
+    año=año_publicacion
 
     isbn=input("Ingrese el ISBN del ejemplar:\n> ").upper()
 
@@ -98,4 +98,5 @@ while True:
         break
   if opcion == 3:
     print("---Programa Finalizado, que tenga un lindo día---")
-    break
+    break1
+    
